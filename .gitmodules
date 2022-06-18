@@ -1,0 +1,3 @@
+[submodule "src/orig/myLibreNMS"]
+	path = src/orig/myLibreNMS
+	url = https://github.com/librenms/myLibreNMS
