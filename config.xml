@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.paulheinrichs.mylibrenms" version="1.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>myLibreNMS</name>
+<widget id="com.nativeit.inms" version="1.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>iNMS</name>
     <description>A Librenms utility tool</description>
-    <author email="pdheinrichs@gmail.com" />
+    <author email="sdavis@nativeit.dev" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />

@@ -1,6 +1,6 @@
 {
     "name": "MyLibreNMS",
-    "author": "Paul Heinrichs",
+    "author": "Stephen Davis",
     "homepage": "http://ionicframework.com/",
     "private": true,
     "scripts": {
@@ -68,8 +68,7 @@
         "cordova-sqlite-storage",
         "cordova-plugin-inappbrowser"
     ],
-    "cordovaPlatforms": [
-        {
+    "cordovaPlatforms": [{
             "platform": "android",
             "version": "",
             "locator": "android"
