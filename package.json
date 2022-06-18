@@ -1,5 +1,5 @@
 {
-    "name": "inms0.0.1",
+    "name": "inms",
     "author": "Stephen Davis",
     "homepage": "http://ionicframework.com/",
     "private": true,
@@ -27,21 +27,28 @@
         "@ionic/storage": "3.0.6",
         "@ngx-translate/core": "^14.0.0",
         "@ngx-translate/http-loader": "^7.0.0",
+        "cordova-android": "^10.1.2",
+        "cordova-ios": "^6.2.0",
+        "cordova-plugin-compat": "^1.2.0",
+        "cordova-plugin-console": "^1.1.0",
+        "cordova-plugin-device": "^2.1.0",
+        "cordova-plugin-globalization": "^1.11.0",
+        "cordova-plugin-inappbrowser": "^5.0.0",
+        "cordova-plugin-ionic": "^5.5.2",
+        "cordova-plugin-ionic-webview": "^5.0.0",
+        "cordova-plugin-screen-orientation": "^3.0.2",
+        "cordova-plugin-splashscreen": "^6.0.1",
+        "cordova-plugin-statusbar": "^3.0.0",
+        "cordova-sqlite-storage": "^6.0.0",
         "@ionic/angular": "6.1.10",
         "ionic-img-viewer": "^2.9.0",
         "ionic-native-http-connection-backend": "^10.0.0",
         "ionic-plugin-keyboard": "^2.2.1",
-        "@capacitor/cli": "3.6.0",
-        "@capacitor/core": "3.6.0",
-        "@capacitor/app": "1.1.1",
-        "@capacitor/haptics": "1.1.4",
-        "@capacitor/status-bar": "1.0.8",
-        "@capacitor/keyboard": "1.2.3",
+        "ionicons": "6.0.2",
         "phonegap-plugin-barcodescanner": "^8.1.0",
         "rxjs": "6.6.7",
         "sw-toolbox": "3.6.0",
-        "zone.js": "0.11.6",
-        "node-gyp": "9.0.0"
+        "zone.js": "0.11.6"
     },
     "devDependencies": {
         "@ionic/app-scripts": "3.2.4",
@@ -49,5 +56,57 @@
         "typescript": "4.7.4",
         "sass": "1.52.3"
     },
-    "description": "MyLibreNMS: A LibreNMS utility app"
+    "description": "MyLibreNMS: A LibreNMS utility app",
+    "cordovaPlugins": [
+        "cordova-plugin-device",
+        "cordova-plugin-console",
+        "cordova-plugin-whitelist",
+        "cordova-plugin-splashscreen",
+        "cordova-plugin-statusbar",
+        "ionic-plugin-keyboard",
+        "cordova-sqlite-storage",
+        "cordova-plugin-inappbrowser"
+    ],
+    "cordovaPlatforms": [{
+            "platform": "android",
+            "version": "",
+            "locator": "android"
+        },
+        {
+            "platform": "ios",
+            "version": "",
+            "locator": "ios"
+        }
+    ],
+    "cordova": {
+        "platforms": [
+            "android",
+            "browser",
+            "ios"
+        ],
+        "plugins": {
+            "cordova-plugin-console": {},
+            "cordova-plugin-device": {},
+            "cordova-plugin-screen-orientation": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-whitelist": {},
+            "ionic-plugin-keyboard": {},
+            "phonegap-plugin-barcodescanner": {
+                "CAMERA_USAGE_DESCRIPTION": "Scan QR-Codes"
+            },
+            "cordova-sqlite-storage": {},
+            "cordova-plugin-inappbrowser": {},
+            "cordova-plugin-ionic-webview": {},
+            "cordova-plugin-globalization": {},
+            "cordova-plugin-advanced-http": {},
+            "cordova-plugin-ionic": {
+                "APP_ID": "2ef01446",
+                "CHANNEL_NAME": "Production",
+                "UPDATE_METHOD": "background",
+                "WARN_DEBUG": "true",
+                "UPDATE_API": "https://api.ionicjs.com",
+                "MAX_STORE": "2"
+            }
+        }
+    }
 }
