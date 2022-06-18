@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, AlertController, ToastController } from 'ionic-angular';
+import { IonicPage, NavController, AlertController, ToastController } from '@ionic/angular';
 import { LibreNMS } from '../../providers/libre-nms';
 import { GlobalAlertProvider } from '../../providers/alert-provider';
 import { DeviceProvider } from '../../providers/device/device-provider';

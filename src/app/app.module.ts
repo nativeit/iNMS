@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule, HttpBackend, HttpXhrBackend } from '@angular/common/http';
-import { IonicApp, IonicModule, Platform } from 'ionic-angular';
+import { IonicApp, IonicModule, Platform } from '@ionic/angular';
 import { MyApp } from './app.component';
 import { IonicStorageModule } from '@ionic/storage'
 

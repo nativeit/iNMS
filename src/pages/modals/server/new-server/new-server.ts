@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { IonicPage, ViewController, ToastController } from 'ionic-angular';
+import { IonicPage, ViewController, ToastController } from '@ionic/angular';
 import { Validators, FormBuilder, AbstractControl } from '@angular/forms';
 import { Storage } from '@ionic/storage';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';

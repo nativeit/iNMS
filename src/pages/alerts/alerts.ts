@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams } from '@ionic/angular';
 import { GlobalAlertProvider } from '../../providers/alert-provider';
 import { Observable } from 'rxjs/Rx';
 import { Alert } from '../../model/alert';

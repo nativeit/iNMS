@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, PopoverController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, PopoverController } from '@ionic/angular';
 import { DeviceProvider } from '../../providers/device/device-provider';
 import { WirelessProvider } from '../../providers/device/wireless-provider';
 import { Device } from '../../model/device';

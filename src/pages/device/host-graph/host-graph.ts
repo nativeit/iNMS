@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, App, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, App, NavController, NavParams } from '@ionic/angular';
 import { DeviceProvider } from '../../../providers/device/device-provider';
 import { GraphHelper } from '../../../providers/graph';
 

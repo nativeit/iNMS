@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { IonicPage, ViewController, ToastController } from 'ionic-angular';
+import { IonicPage, ViewController, ToastController } from '@ionic/angular';
 import { DeviceProvider } from '../../../providers/device/device-provider';
 @IonicPage({
     name: 'new-device'

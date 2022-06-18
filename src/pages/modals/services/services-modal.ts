@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, ViewController, NavParams } from 'ionic-angular';
+import { IonicPage, ViewController, NavParams } from '@ionic/angular';
 import { DeviceProvider } from '../../../providers/device/device-provider';
 import { Device } from '../../../model/device'
 

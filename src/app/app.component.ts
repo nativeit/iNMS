@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
-import { Nav, Platform } from 'ionic-angular';
+import { Nav, Platform } from '@ionic/angular';
 import { LibreNMS } from '../providers/libre-nms';
-import { MenuController } from 'ionic-angular';
+import { MenuController } from '@ionic/angular';
 import { TranslateService } from '@ngx-translate/core';
 import { Storage } from '@ionic/storage';
 import { StatusBar } from '@ionic-native/status-bar';

@@ -1,6 +1,12 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ModalController } from '@ionic/angular';
 import { LibreNMS } from "../../../../providers/libre-nms";
+
+type NewType = NavController;
+
+type NewType_1 = NavParams;
+
+type NewType_2 = ModalController;
 
 @IonicPage({
     priority: 'high'
@@ -12,7 +18,7 @@ import { LibreNMS } from "../../../../providers/libre-nms";
 export class ServicesCritPage {
     items: any;
     modal: any;
-    constructor(public navCtrl: NavController, public navParams: NavParams, private api: LibreNMS, public modalCtrl: ModalController) {
+    constructor(public navCtrl: NewType, public navParams: NewType_1, private api: LibreNMS, public modalCtrl: NewType_2) {
         this.items = [];
     }
 

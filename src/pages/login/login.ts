@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, ModalController, MenuController, ToastController, Platform } from 'ionic-angular';
+import { IonicPage, NavController, ModalController, MenuController, ToastController, Platform } from '@ionic/angular';
 import { LibreNMS } from '../../providers/libre-nms';
 import { Storage } from '@ionic/storage';
 @IonicPage({

@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
+import { IonicPageModule } from '@ionic/angular';
 import { Groups } from './groups';
 import { TranslateModule } from '@ngx-translate/core';
 

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, ViewController, NavParams } from 'ionic-angular';
+import { IonicPage, ViewController, NavParams } from '@ionic/angular';
 import { LibreNMS } from '../../../../providers/libre-nms';
 import { LogProvider } from '../../../../providers/device/log-provider';
 @IonicPage()

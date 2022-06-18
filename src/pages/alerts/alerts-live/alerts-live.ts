@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, ToastController, ModalController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ToastController, ModalController } from '@ionic/angular';
 import { GlobalAlertProvider } from '../../../providers/alert-provider';
 import { DeviceProvider } from '../../../providers/device/device-provider';
 

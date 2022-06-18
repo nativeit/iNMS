@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { IonicPage, ViewController, NavParams } from 'ionic-angular';
+import { IonicPage, ViewController, NavParams } from '@ionic/angular';
 import { LibreNMS } from '../../../providers/libre-nms';
 import { Rule } from '../../../model/rule';
 @IonicPage()

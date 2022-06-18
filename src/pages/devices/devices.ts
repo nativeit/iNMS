@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { IonicPage, NavController, NavParams, LoadingController, AlertController, ModalController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, LoadingController, AlertController, ModalController } from '@ionic/angular';
 import { DeviceProvider } from '../../providers/device/device-provider';
 import { Device } from '../../model/device';
 @IonicPage()
