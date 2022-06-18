@@ -1,4 +1,4 @@
-- Stephen Davis - sdavis@nativeit.dev
+- Paul Heinrichs - pdheinrichs@gmail.com
 
 
 ### Translations

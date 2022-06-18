@@ -1,6 +1,6 @@
-# iNMS
+# myLibreNMS
 
-iNMS is an open source mobile application on both iOS and Android. This application was created in the [ionic framework](https://ionicframework.com)
+myLibreNMS is an open source mobile application on both iOS and Android. This application was created in the [ionic framework](https://ionicframework.com)
 
 ## Getting Started
 
@@ -39,7 +39,7 @@ I am gladly accepting pull requests.
 If you would like to contribute it would be easiest to familiarize yourself with [ionic](https://ionicframework.com/docs/)
 
 ## Translating
-If you would like to help translate iNMS, please submit a pull request to do so. 
+If you would like to help translate myLibreNMS, please submit a pull request to do so. 
 
 Create a file under **src/assets/i18n/*.json** using en.json as a guide
 
