@@ -1,2 +1,2 @@
 # iNMS
-LibreNMS for iOS based on https://github.com/librenms/myLibreNMS
+LibreNMS for iOS based on https://github.com/librenms/iNMS
